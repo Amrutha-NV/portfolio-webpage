@@ -24,6 +24,14 @@
  
  nav:hover {
      box-shadow: 1px 1px 2px #83746E;
+     transition: ease-in-out;
+     transition-delay: 1;
+ }
+ 
+ nav a:hover {
+     color: greenyellow;
+     transition: ease-in-out;
+     transition-delay: 1;
  }
  
  #container {
@@ -48,7 +56,7 @@
  
  .big {
      font-family: "Boldonse", system-ui;
-     color: #ffffff;
+     color: greenyellow;
  }
  
  .media {
@@ -67,7 +75,7 @@
      height: 250px;
      width: 250px;
      border-radius: 50%;
-     background-image: url(/portfolio/portfolio-webpage/assets/image.png);
+     background-image: url(/portfolio/portfolio-webpage/assets/image\ copy.png);
      background-size: cover;
  }
  
