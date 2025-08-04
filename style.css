@@ -1,0 +1,85 @@
+ body {
+     background-color: rgb(31, 35, 44);
+     text-decoration: none;
+ }
+ 
+ nav {
+     position: sticky;
+     top: 0px;
+     height: 3rem;
+     width: 100%;
+     background-color: rgb(131, 116, 110, 0.4);
+     text-align: right;
+     border-radius: 2rem;
+ }
+ 
+ nav a {
+     text-decoration: none;
+     color: #ffffff;
+     margin: 1.5rem;
+     padding: 1rem;
+     font-size: 0.8rem;
+     font-family: "Boldonse", system-ui;
+ }
+ 
+ nav:hover {
+     box-shadow: 1px 1px 2px #83746E;
+ }
+ 
+ #container {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: nowrap;
+ }
+ 
+ .item {
+     height: 500px;
+     width: 50%;
+     margin-left: 1rem;
+     padding-top: 3rem;
+ }
+ 
+ .small {
+     font-family: "PT Sans", sans-serif;
+     color: #dfd6d1;
+     padding: 1rem;
+     margin: 1rem;
+ }
+ 
+ .big {
+     font-family: "Boldonse", system-ui;
+     color: #ffffff;
+ }
+ 
+ .media {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .mediaitem {
+     margin-top: 1rem;
+     padding: 1rem;
+ }
+ 
+ .img {
+     height: 250px;
+     width: 250px;
+     border-radius: 50%;
+     background-image: url(/portfolio/portfolio-webpage/assets/image.png);
+     background-size: cover;
+ }
+ 
+ .contact a i {
+     font-size: 1.5rem;
+     margin: 1rem;
+     padding: auto;
+     color: #ffffff;
+ }
+ 
+ .contact a i:hover {
+     color: rgba(240, 238, 238, 0.6);
+     transition: ease-in;
+     transition-delay: 0.1;
+ }
